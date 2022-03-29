@@ -22,19 +22,19 @@ export const Header = (props) => {
       flexDirection={{ base: "column", md: "row" }}
       justifyContent="space-between"
     >
-      <Heading>Chainlist</Heading>
+      <Heading>Hash EVMlist</Heading>
       <Search {...props} />
       <Flex>
         <Tooltip label="Add Network">
           <Link
-            href="https://github.com/ethereum-lists/chains/pulls"
+            href="https://github.com/hashprotocol/chainlist/pulls"
             isExternal
           >
             <IconButton size="lg" aria-label="Add" icon={<AddIcon />} mr="1" />
           </Link>
         </Tooltip>
         <Tooltip label="GitHub">
-          <Link href="https://github.com/FrederikBolding/chainlist" isExternal>
+          <Link href="https://github.com/hashprotocol/chainlist" isExternal>
             <IconButton
               size="lg"
               aria-label="GitHub"
